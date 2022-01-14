@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    background-color: #faf4f4;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    margin: 50px 380px 50px 380px;
+}
+header h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    
+}
+main{   
+    display: block
+    ;   
+    align-items: center;
+}
+/*------------------- 
+banner section css is here 
+-------------------------*/
+.banner-section{
+    display: flex;
+    justify-content: center;
+}
+.banner-content{
+    max-width: 582px;
+    height: 270px;
+}
+.banner-content h1{
+    font-size: 52px;
+    line-height: 70px;
+}
+.banner-content p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.prebook-btn{
+    max-width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    
+}
+.prebook-btn span{
+    line-height: 24px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.prebook-btn i{
+    margin-left: 8px;
+    
+}
+.banner-img{
+    width: 440px;
+    height: 414px;
+    margin-left: 133px;
+}
+.banner-img:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.banner-img img{
+    width: 400px;
+    height: 300px;
+}
+/* --------------------
+popular item css
+-------------------- */
+.popular-collection{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 150px;
+}
+.item-header{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.popular-all-item{
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.popular-item{
+    width: 329px;
+    height: 476px;
+    background-color: #FFFFFF;
+}
+.item-img img{
+    width: 300px;
+    height: 256px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.item-details{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.item-details h2{
+    font-size: 28px;
+    line-height: 15px;
+    color: #18191F;
+    
+}
+.item-details h3{
+    font-size: 24px;
+    line-height: 15px;
+    
+}
+.item-details  p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    
+}
+.item-rating i{
+    color:#FB8200 ;
+}
+.item-rating span{
+    color: #5E6366;
+    font-weight: 700;
+    margin-left: 8px;
+}
+.more-item{
+    color: #E02C6D;
+    width: 99px;
+    height: 24px;  
+    font-weight: 700;
+    position: absolute;
+    margin-left: 940px;
+    top: 1500px;
+}
+/*------------------------
+ recent css is here
+ ------------------- */
+ .recent-item-section{
+     display: flex;
+     justify-content: center;
+ }
+ .recent-item-title{
+     font-size: 38px;
+     margin-top: 180px;
+     color: #E02C6D;
+ }
+ .recent-item{
+     margin-left: 20px;
+     background-color: #FFFFFF;
+     padding: 10px;
+     margin: 10px;
+ }
+ .recent-img img{
+    height: 300px;
+    width: 400px;
+ }
+/*-----------------
+ footer section css
+-------------------- */
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    padding: 70px 0px;
+}
+.footer-text{
+    color: #FFFFFF;
+}
+.footer-text h1{
+    font-size: 24px;
+    width: 700;
+}
+.footer-text p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #D9DBE1;
+    line-height: 24px;
+}
+.footer-logo i{
+    color: white;
+    margin-left: 16px;
+}
+@media  screen and (max-width:767px)  {
+    header{
+        margin: 20px;
+        text-align: center;
+    }
+    header h1{
+        font-size: 24px;
+        font-weight: 700;
+        
+    }
+    .banner-section{
+        display: block;
+        justify-content: center;
+    }
+    .banner-content{
+        width: 400px;
+        height: 270px;
+    }
+    .banner-content h1{
+        font-size: 42px;
+        line-height: 40px;
+    }
+    .banner-content p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .prebook-btn{
+        width: 190px;
+        height: 44px;
+        background-color: #E02C6D;
+        display: flex;
+        align-items: center;
+        color: white;
+        border-radius: 20px;
+        
+    }
+    .prebook-btn span{
+        line-height: 24px;
+        font-weight: 700;
+        
+    }
+    .prebook-btn i{
+        margin-left: 8px;
+        
+    }
+    .banner-img{
+        width: 250px;
+        height: 250px;
+        margin-left: -20px;
+    }
+    .banner-img img{
+        width: 400px;
+        height: 300px;
+    }
+    .popular-all-item{
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .more-item{
+        color: #E02C6D;
+        width: 99px;
+        height: 24px;  
+        font-weight: 700;
+        position: absolute;
+        margin-left: 250px;
+        top: 4450px;
+    }
+    .recent-item-section{
+        display: block;
+        justify-content: center;
+    }
+    .recent-img{
+        width: 300px;
+    }
+    .recent-img img{
+        width: 300px;
+    }
+    .recent-item{
+        
+        background-color: #FFFFFF;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    header{
+        margin: 20px;
+        text-align: center;
+    }
+    header h1{
+        font-size: 24px;
+        font-weight: 700;
+        
+    }
+    .banner-section{
+        display: block;
+        justify-content: center;
+    }
+    .banner-content{
+        width: 600px;
+        height: 270px;
+        margin-left: 100px;
+        margin-bottom: 60px;
+    }
+
+     .popular-all-item{
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .more-item{
+        color: #E02C6D;
+        width: 99px;
+        height: 24px;  
+        font-weight: 700;
+        position: absolute;
+        margin-left: 250px;
+        top: 2500px;
+    }
+    .recent-item-section{
+        display: block;
+        justify-content: center;
+    }
+    .recent-item{
+        width: 400px;
+        margin-left: 200px;
+        margin-bottom: 100px;
+    }
+}
